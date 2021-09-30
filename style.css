@@ -1,0 +1,685 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar .menu-img {
+    display: flex;
+    padding-left: 65rem;
+}
+
+.navbar .logo-text {
+    padding-left: 6rem;
+    color: rgba(128, 128, 128, 0.548);
+}
+.hero-bg {
+    background-image: url('./images/hero-bg.jpg');
+   background-position: inherit;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 200px 0;
+   width: 100%;
+ }
+ 
+.text-div {
+   padding: 0 50px;
+}
+ 
+.text-div h1 {
+  font-size: 3.125rem;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: 'roboto',sans-serif;
+  margin: 0; 
+  color:white;
+}
+ 
+.text-div h2 {
+     font-size: 6rem;
+     text-transform: uppercase;
+     font-weight: 800;
+     margin: 0;
+     color:white; 
+}
+ 
+.border-line {
+   border-bottom: 9px solid white;
+   width: 600px;
+   margin-top:20px;
+}
+.icons {
+    width: 40%;
+    display: flex;
+    padding-top: 2rem;
+}
+.logo-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 8rem;
+}
+.logo-text {
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0;
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding-bottom: 6rem;
+}
+.our-service {
+    padding-top: 10rem;
+}
+.serv {
+    color: rgba(128, 128, 128, 0.548);
+}
+.our-service .serv {
+  padding-left: 36rem;
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+.question {
+    padding-left: 20rem;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.paragraph {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    width: 780px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.input-container{
+    padding-top: 3rem;
+    margin-left: 36rem;
+}
+.input-container button {
+    padding: 18px 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #e71a23;
+    color: white;
+    border-radius: 4px;
+    border-color: #e71a23;
+    cursor: pointer;
+    text-align: center;
+}
+.need-help {
+    padding: 4rem 6.5rem;
+}
+.help-layout {
+    display: flex;
+    flex-direction: row;
+}
+.billion-img {
+    width: 95%;
+    justify-content: space-between;
+}
+.layout-1 {
+    flex-direction: column;
+    width: 50%;
+}
+.layout-2 {
+    flex-direction: column;
+    width: 50%;
+}
+.layout-1 p {
+    width: 95%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+.layout-2 h1 {
+    padding-top: 2rem;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.layout-2 h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #e71a23;
+    padding-bottom: 4rem;
+}
+.quality {
+    background-color: rgba(128, 128, 128, 0.37);
+    padding: 0 60px;
+}
+.quality-layout {
+    display: flex;
+    flex-direction: row;
+}
+.img-container {
+    background-image: url('./images/billionphotos-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65%;
+    padding: 335px 0;
+}
+.text-container {
+    width: 85%;
+    padding: 30px 40px;
+}
+.text-container h1 {
+    color: #104e92;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 145px 0 0;
+}
+.text-container .border-line {
+   border-color: #e71a23;
+   height: 8px;
+   transform-origin: left center;
+   border-style: solid;
+   margin: 30px auto 0 0;
+   width: 100% !important;
+
+}
+.text-container p {
+    font-size: 1.5rem;
+    margin: 20px 0 0;
+    line-height: 1.6;
+    font-family: 'open sans', sans-serif;
+    word-wrap: break-word;
+    position: relative;
+    color: #111111;
+    width: 100%;
+}
+.input-container-1 {
+    padding-top: 2rem;
+}
+.input-container-1 button {
+    padding: 18px 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #e71a23;
+    color: white;
+    border-radius: 4px;
+    border-color: #e71a23;
+    cursor: pointer;
+}
+.our-work {
+    padding: 4rem 3rem;
+}
+.work-section {
+    display: flex;
+    flex-direction: row
+
+}
+.red-icons {
+    width: 85px;
+    height: 85px;
+}
+.work-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+}
+.painting-work,
+.electrical-work,
+.repair-work {
+    padding: 50px;
+    font: 18px 'open sans',sans-serif;
+}
+h4 {
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.work-paragraph {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 20px 0;
+    line-height: 1.6;
+    font-family: 'open sans',sans-serif;
+}
+.about-us {
+    background-color: #104e92;
+}
+.about-div {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px auto;
+    height: 700px;
+}
+.first-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding: 40px;
+    border: 16px solid transparent;
+    justify-content: center;
+    margin-top: 1rem;
+}
+h6 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-left: 4rem;
+}
+.abt-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 10px 0 0;
+    font-weight: 400;
+    margin-left: 4rem;
+}
+b {
+    font-weight: 700;
+    font-size: 6rem;
+}
+.second-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin-right: 6rem;
+}
+.first-img-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+    width: 100%;
+    height: 100%;
+}
+.second-img-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+.img-container-1 {
+    background-image: url('./images/plumb-4.jpg');
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    flex: 0 0 50%;
+    border: 16px solid transparent;
+}
+.img-container-2 {
+    background-image: url('./images/plumb-2.jpg');
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    flex-direction: row;
+    flex: 0 0 50%;
+    border: 16px solid transparent;
+}
+.img-container-3 {
+    background-image: url('./images/billionphotos-1.jpg');
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    flex: 0 0 50%;
+    border: 16px solid transparent;
+}
+.img-container-4 {
+    background-image: url('./images/billionphotos1882951.jpg');
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    flex: 0 0 50%;
+    border: 16px solid transparent;
+}
+
+.to-do-list {
+    padding: 0 1.5rem;
+}
+.to-do-text {
+    width: 726px;
+    height: 310px;
+    margin: 70px auto 70px 280px;
+}
+.to-do {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin: 0;
+    text-align: center;
+}
+.to-do-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    position: relative;
+}
+.to-do-content p {
+   font-size: 1.875rem;
+   font-weight: 300;
+   margin: 30px 0 0;
+   line-height: 1.6;
+   text-align: center;
+   font-family: 'open sans', sans-serif;
+}
+.input-container-2 {
+    justify-content: center;
+    flex: 1 1 100%;
+    display: flex;
+}
+.input-container-2 button {
+    padding: 18px 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #e71a23;
+    color: white;
+    border-radius: 4px;
+    border-color: #e71a23;
+    cursor: pointer;
+}
+.input-container-2 .second-button {
+    padding: 18px 36px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    margin: 0 10px;
+}
+@media(max-width: 768px) {
+    .navbar .menu-img {
+        padding-left: 35rem;
+    }
+    .navbar .logo-text {
+        padding-left: 3rem;
+    }
+   .hero-bg {
+       padding: 100px 0;
+    }
+    .text-div h2 {
+        font-size: 4.5rem;
+    }
+    .border-line {
+        width: 450px;
+    }
+    .logo-img {
+        width: 80px;
+        height: 70px;
+        margin-right: 6rem;
+    }
+    .our-service .serv {
+        padding-left: 18rem;
+    }
+    .question {
+        font-size: 3.125rem;
+        padding-left: 7rem;
+    }
+    .paragraph {
+        width: 720px;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .input-container {
+        margin-left: 18rem;
+    }
+    .need-help {
+        padding: 3rem 1rem;
+    }
+    .help-layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .billion-img {
+        width: 100%;
+    }
+    .layout-1 {
+        width: 100%;
+    }
+    .layout-2 {
+        width: 100%;
+    }
+    .layout-2 h1 {
+        font-size: 2.25rem;
+        margin-left: 3rem;
+    }
+    .layout-2 h2 {
+        font-size: 2rem;
+        margin-left: 3rem;
+    }
+    .quality {
+        padding: 0;
+    }
+    .img-container {
+        width: 50%;
+        background-size: contain;
+        padding: 120px 0;
+    }
+    .text-container {
+        width: 50%;
+    }
+    .text-container h1 {
+        font-size: 3.125rem;
+        line-height: 1.1;
+    }
+    .text-container p {
+        font-size: 1.125rem;
+    }
+    .our-work {
+        padding: 0;
+    }
+    .work-heading {
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+    .about-div {
+        flex-direction: row;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .first-div {
+        padding: 0;
+    }
+    .abt-text {
+        font-size: 4rem;
+        font-family: 300;
+    }
+    b {
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .second-div {
+        margin-right: 0;
+        width: 100%;
+    
+    }
+    .img-container-1 {
+       width: 230px;
+    }
+    .to-do {
+        font-size: 2.3rem;
+        margin-right: 1rem;
+    }
+    .to-do-text {
+       margin: 0;
+    }
+}
+@media(max-width: 425px) {
+    .navbar .menu-img {
+        padding-left: 14rem;
+    }
+    .navbar .logo-text {
+        padding-left: 2rem;
+    }
+    .hero-bg {
+        background-position: 80% 50%;
+    }
+    .text-div {
+        padding-top: 15rem;
+        padding-bottom: 0;
+    }
+    .text-div h1 {
+        font-size: 2.25rem;
+    }
+    .text-div h2 {
+        font-size: 3.635rem;
+    }
+    .border-line {
+        width: 335px;
+    }
+    .icons {
+        display: none;
+    }
+    .service {
+        padding-bottom: 3rem;
+    }
+    .our-service {
+        padding-top: 0;
+    }
+    .our-service .serv {
+        font-size: 1.125rem;
+        padding-top: 60px;
+        margin-left: -9rem;
+    }
+    .question {
+        text-align: center;
+        line-height: 1.1;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+    .paragraph {
+        width: 340px;
+    }
+    .input-container {
+        margin-left: 8.5rem;
+    }
+    .input-container button {
+        padding: 16px 36px;
+        font-size: 0.75rem;
+    }
+    .need-help {
+        padding: 3rem 2rem;
+    }
+    .layout-1 p {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .layout-2 h1 {
+        font-size: 1.875rem;
+        margin-left: 1rem;
+    }
+    .layout-2 h2 {
+        font-size: 1.775rem; 
+        margin-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .quality-layout {
+        flex-direction: column;
+    }
+    .img-container {
+        width: 100%;
+        background-size: cover;
+        background-position: inherit;
+        padding: 270px 0;
+    }
+    .text-container {
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .input-container-1 button {
+        padding: 16px 36px;
+        font-size: 0.75rem;
+    }
+    .work-section {
+        flex-direction: column;
+    }
+    .red-icons {
+        width: 75px;
+        height: 75px;
+    }
+    .painting-work,
+    .electrical-work,
+    .repair-work {
+       padding-bottom: 0;
+    }
+    .about-us {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .about {
+        margin: auto 30px;
+        height: 1400px;
+    }
+    .first-img-div {
+        flex-direction: column;
+    }
+    h6 {
+        margin-left: 0;
+    }
+    .second-img-div {
+        flex-direction: column;
+    }
+    .img-container-1 {
+        width: 100%;
+    }
+    .abt-text {
+        margin-left: 0;
+    }
+    .to-do-content {
+        width: 400px;
+    }
+    .to-do {
+        font-size: 2.1rem;
+        margin-left: 2rem;
+    }
+    .to-do-list {
+        padding: 0;
+    }
+    .to-do-content p {
+        margin-left: 2rem;
+    }
+    .input-container-2 {
+        flex-direction: column;
+        width:25%;
+        margin-left: 8rem;
+    }
+    .btn {
+        margin-bottom: 3rem;
+    }
+    .input-container-2 button {
+        font-size: 0.75rem;
+    }
+    
+
+}
