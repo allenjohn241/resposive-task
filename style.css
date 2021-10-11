@@ -676,14 +676,16 @@ b {
     }
     .input-container-2 {
         flex-direction: column;
-        width:25%;
-        margin-left: 8rem;
+        margin-left: 9rem;
     }
     .btn {
         margin-bottom: 3rem;
     }
     .input-container-2 button {
         font-size: 0.75rem;
+    }
+    .input-container-2 .second-button {
+        margin: 0 12px;
     }
     
 
@@ -826,15 +828,16 @@ b {
     }
     .input-container-2 {
         flex-direction: column;
-        width:25%;
         margin-left: 7rem;
     }
     .btn {
         margin-bottom: 3rem;
-        padding: 6px;
     }
     .input-container-2 button {
         font-size: 0.75rem;
+    }
+    .input-container-2 .second-button {
+        margin: 0 12px;
     }
     
 
