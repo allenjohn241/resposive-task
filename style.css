@@ -369,7 +369,7 @@ b {
     padding: 0 1.5rem;
 }
 .to-do-text {
-    width: 726px;
+    width: 100%;
     height: fit-content;
     margin: 70px auto 70px 280px;
 }
@@ -662,7 +662,7 @@ b {
         margin-left: 0;
     }
     .to-do-content {
-        width: fit-content;
+        width: 100%;
     }
     .to-do {
         font-size: 2.1rem;
@@ -811,7 +811,7 @@ b {
         margin-left: 0;
     }
     .to-do-content {
-        width: fit-content;
+        width: 100%;
     }
     .to-do {
         font-size: 2.1rem;
