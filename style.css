@@ -38,7 +38,7 @@ body {
    padding: 0 50px;
 }
 .debug {
-    border: none;
+    border: 1px solid black;
 }
  
 .text-div h1 {
