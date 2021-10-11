@@ -37,6 +37,9 @@ body {
 .text-div {
    padding: 0 50px;
 }
+.debug {
+    border: 1px solid black;
+}
  
 .text-div h1 {
   font-size: 3.125rem;
@@ -367,7 +370,7 @@ b {
 }
 .to-do-text {
     width: 726px;
-    height: 310px;
+    height: fit-content;
     margin: 70px auto 70px 280px;
 }
 .to-do {
@@ -533,6 +536,7 @@ b {
     }
     .to-do-text {
        margin: 0;
+       width: 100%;
     }
 }
 @media(max-width: 425px) {
