@@ -831,6 +831,7 @@ b {
     }
     .btn {
         margin-bottom: 3rem;
+        padding: 6px;
     }
     .input-container-2 button {
         font-size: 0.75rem;
