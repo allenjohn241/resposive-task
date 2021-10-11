@@ -425,6 +425,7 @@ b {
     }
    .hero-bg {
        padding: 100px 0;
+       background-position: center;
     }
     .text-div h2 {
         font-size: 4.5rem;
@@ -683,3 +684,154 @@ b {
     
 
 }
+@media(max-width: 375px) {
+    .navbar .menu-img {
+        padding-left: 12rem;
+    }
+    .navbar .logo-text {
+        padding-left: 1rem;
+    }
+    .hero-bg {
+        background-position: 80% 50%;
+    }
+    .text-div {
+        padding-top: 15rem;
+        padding-bottom: 0;
+    }
+    .text-div h1 {
+        font-size: 1.5rem;
+    }
+    .text-div h2 {
+        font-size: 2.5rem;
+    }
+    .border-line {
+        width: 300px;
+    }
+    .icons {
+        display: none;
+    }
+    .service {
+        padding-bottom: 3rem;
+    }
+    .our-service {
+        padding-top: 0;
+    }
+    .our-service .serv {
+        font-size: 1.125rem;
+        padding-top: 60px;
+        margin-left: -9rem;
+    }
+    .question {
+        text-align: center;
+        line-height: 1.1;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+    .paragraph {
+        width: 340px;
+    }
+    .input-container {
+        margin-left: 7.2rem;
+    }
+    .input-container button {
+        padding: 16px 36px;
+        font-size: 0.75rem;
+    }
+    .need-help {
+        padding: 3rem 2rem;
+    }
+    .layout-1 p {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .layout-2 h1 {
+        font-size: 1.875rem;
+        margin-left: 1rem;
+    }
+    .layout-2 h2 {
+        font-size: 1.775rem; 
+        margin-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .quality-layout {
+        flex-direction: column;
+    }
+    .img-container {
+        width: 100%;
+        background-size: cover;
+        background-position: inherit;
+        padding: 270px 0;
+    }
+    .text-container {
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .input-container-1 button {
+        padding: 16px 36px;
+        font-size: 0.75rem;
+    }
+    .work-section {
+        flex-direction: column;
+    }
+    .red-icons {
+        width: 75px;
+        height: 75px;
+    }
+    .painting-work,
+    .electrical-work,
+    .repair-work {
+       padding-bottom: 0;
+    }
+    .about-us {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .about {
+        margin: auto 30px;
+        height: 1400px;
+    }
+    .first-img-div {
+        flex-direction: column;
+    }
+    h6 {
+        margin-left: 0;
+    }
+    .second-img-div {
+        flex-direction: column;
+    }
+    .img-container-1 {
+        width: 100%;
+    }
+    .abt-text {
+        margin-left: 0;
+    }
+    .to-do-content {
+        width: 360px;
+    }
+    .to-do {
+        font-size: 2.1rem;
+        margin-left: 2rem;
+    }
+    .to-do-list {
+        padding: 0;
+    }
+    .to-do-content p {
+        margin-left: 2rem;
+        font-size: 1.575rem;
+    }
+    .input-container-2 {
+        flex-direction: column;
+        width:25%;
+        margin-left: 7rem;
+    }
+    .btn {
+        margin-bottom: 3rem;
+    }
+    .input-container-2 button {
+        font-size: 0.75rem;
+    }
+    
+
+}
+
