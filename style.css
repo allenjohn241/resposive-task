@@ -662,7 +662,7 @@ b {
         margin-left: 0;
     }
     .to-do-content {
-        width: 400px;
+        width: fit-content;
     }
     .to-do {
         font-size: 2.1rem;
@@ -811,7 +811,7 @@ b {
         margin-left: 0;
     }
     .to-do-content {
-        width: 360px;
+        width: fit-content;
     }
     .to-do {
         font-size: 2.1rem;
