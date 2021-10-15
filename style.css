@@ -278,7 +278,6 @@ h4 {
     flex-direction: row;
     width: 100%;
     margin: 50px auto;
-    height: 700px;
 }
 .first-div {
     display: flex;
@@ -386,7 +385,6 @@ b {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 740px;
     position: relative;
 }
 .to-do-content p {
