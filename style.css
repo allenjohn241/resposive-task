@@ -369,9 +369,7 @@ b {
     padding: 0 1.5rem;
 }
 .to-do-text {
-    width: 100%;
     height: fit-content;
-    margin: 70px auto 70px 280px;
 }
 .to-do {
     font-weight: 700;
